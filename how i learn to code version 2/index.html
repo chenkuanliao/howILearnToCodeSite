@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"?/>
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="styles/styles.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="index.html">Home</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="about.html">about</a>
+                </div>
+
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>CHEN-KUAN LIAO</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="separate-line">
+            <hr>
+        </div>
+        
+        <div class="card-title-wrapper">
+            <div class="card-title-background">
+                <div class="card-title">
+                    <h2>HTML</h2>
+                </div>
+            </div>
+
+            <div class="card-title-background">
+                <div class="card-title">
+                    <h2>CSS</h2>
+                </div>
+            </div>
+
+            <div class="card-title-background">
+                <div class="card-title">
+                    <h2>Javascript</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="card">
+                <div class="card-front">
+                    <img src="pictures/html.png">
+                </div>
+                <div class="card-content">
+                    <h2>01</h2>
+                    <h3>HTML</h3>
+                    <p>
+                        - HTML stands for <em>Text Markup Language</em><br>
+                        - HTML is the standard markup language for Web pages<br>
+                        - HTML elements are the building blocks of HTML pages<br>
+                        - HTML elements are represented by < > tags<br>
+                    </p>
+                    <a href="html.html">Read more</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-front css-picture-setting">
+                    <img src="pictures/CSS.png">
+                </div>
+                <div class="card-content">
+                    <h2>02</h2>
+                    <h3>CSS</h3>
+                    <p>
+                        - CSS stands for <em>Cascading Style Sheets</em><br>
+                        - CSS describes how HTML elements are to be displayed on screen, paper, or in other media<br>
+                        - CSS saves a lot of work. It can control the layout of multiple web pages all at once<br>
+                        - External stylesheets are stored in CSS files<br>
+                    </p>
+                    <a href="css.html">Read more</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-front java-picture-setting">
+                    <img src="pictures/JavaScript.png">
+                </div>
+                <div class="card-content">
+                    <h2>03</h2>
+                    <h3>Javascript</h3>
+                    <p>
+                        - JavaScript is the Programming Language for the Web.<br>
+                        - JavaScript can update and change both HTML and CSS.<br>
+                        - JavaScript can calculate, manipulate and validate data.<br>
+                    </p>
+                    <a href="java.html">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="other source/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 10,
+            speed: 100,
+        });
+    </script>
+</body>
+
+
+</html>
